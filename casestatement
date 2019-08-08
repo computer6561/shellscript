@@ -1,0 +1,19 @@
+#!/bin/bash
+
+COURSE="DB"
+
+case "$COURSE" in
+
+ "Java") echo "Java is a programming language"
+
+;;
+
+ "Perl") echo "Perl is scripting language"
+
+  ;;
+
+ "DB") echo "Oracle is a DB"
+
+  ;;
+
+esac

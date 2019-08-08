@@ -1,0 +1,5 @@
+#!/bin/bash
+a=11
+b=22
+c=`expr [$a -ne $b]`
+echo $c

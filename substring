@@ -1,0 +1,3 @@
+#!/bin/bash
+str="abcdefghijk"
+echo ${str:2}

@@ -1,0 +1,38 @@
+#!/bin/bash
+arithmetic="readvalue"
+if [ -b $arithmetic ]
+  then
+    echo "Binary File"
+fi
+if [ -c $arithmetic ]
+  then
+     echo "character special file"
+fi
+if [ -d $arithmetic ]
+ then
+   echo "file is directory"
+fi
+if [ -f $arithmetic ]
+  then
+    echo "Ordanary or special file"
+fi
+if [ -r $arithmetic ]
+  then
+     echo "readable file"
+fi
+if [ -w $arithmetic ]
+ then
+   echo "writeable file"
+fi
+if [ -x $arithmetic ]
+  then
+    echo "accessable file"
+fi
+if [ -s $arithmetic ]
+  then
+     echo "size greater than zero"
+fi
+if [ -e $arithmetic ]
+ then
+   echo "file check for exist"
+fi

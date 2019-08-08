@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "Do you want to quit (Y/y)?"
+
+read ans
+if [ $ans=='y' -o $and=='Y' ]
+then
+ exit
+else
+ echo "to exit enter N or n"
+fi

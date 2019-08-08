@@ -1,0 +1,10 @@
+#!/bin/bash
+a=12
+b=24
+
+if [ $a -gt $b ]
+then
+  echo $a."(a) greater than ".$b."(b)"
+else
+  echo $b."(b) greater than ".$a."(a)"
+fi

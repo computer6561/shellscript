@@ -1,0 +1,17 @@
+#!/bin/sh
+
+NAME="Zara Ali"
+a=11
+b=22
+c=`expr $a + $b`
+echo $c
+d=`expr $a - $b`
+echo $d
+e=`expr $a \* $b`
+echo $e
+f=`expr $b / $a`
+echo $f
+g=`expr $a % $b`
+echo $g
+h=`expr [$a == $b]`
+echo $h

@@ -1,0 +1,12 @@
+#!/bin/bash
+a="Hello"
+b=""
+c="Word Welcome"
+
+if [ -z $a ]
+  then
+  echo "Zero length"
+elif [ -n $a ]
+   then
+  echo "Non zero length"
+fi

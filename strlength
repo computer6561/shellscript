@@ -1,0 +1,4 @@
+#!/bin/bash
+str="abcdefgh";
+n=${#str}
+echo $n

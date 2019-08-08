@@ -1,0 +1,14 @@
+#!/bin/bash
+a=12
+b=24
+c=36
+
+if [ $a -ge $b -a $a -ge $c ]
+then
+     echo $a."(a) is larger number"
+elif [ $b -ge $c -a $b -ge $c ]
+  then
+     echo $b."(b) is larger number"
+else
+  echo $c."(c) is larger number"
+fi 
